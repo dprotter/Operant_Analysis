@@ -1,0 +1,16 @@
+round,event,time,phase initialized,phase submitted,latency,duration,modifiers,round timestamp initialized
+0,trigger,0.0,NoPhase,NoPhase,,,ID:miniscope_trigger|,0
+1,new_round,0.0,NoPhase,NoPhase,,,ID:round_LED|,1
+1,output_activated,0.01,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_start_round_start,0.01,lever_out,lever_out,,,ID:speaker|,1
+1,lever_extended_food,0.06,lever_out,lever_out,,,ID:food|,1
+1,output_deactivated,0.51,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_stop_round_start,1.02,lever_out,lever_out,,,ID:speaker|,1
+1,tone_start_pellet_tone,2.03,lever_out_pt2,lever_out_pt2,,,ID:speaker|,1
+1,pellet_dispense_dispenser,2.66,lever_out_pt2,lever_out_pt2,,,ID:dispenser|,1
+1,tone_stop_pellet_tone,3.04,lever_out_pt2,lever_out_pt2,,,ID:speaker|,1
+1,lever_retracted_food,4.12,ITI,ITI,,,ID:food|,1
+1,pellet_retrieved,8.53,lever_out_pt2,ITI,5.86,,,1
+1,pellet_retrieved,8.53,ITI,ITI,,,ID:event_LED|,1
+1,output_activated,8.53,ITI,ITI,,,ID:event_LED|,1
+1,output_deactivated,8.88,ITI,ITI,,,ID:event_LED|,1

@@ -1,0 +1,25 @@
+round,event,time,phase initialized,phase submitted,latency,duration,modifiers,round timestamp initialized
+0,trigger,0.0,NoPhase,NoPhase,,,ID:miniscope_trigger|,0
+1,new_round,0.01,NoPhase,NoPhase,,,ID:round_LED|,1
+1,output_activated,0.01,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_start_round_start,0.06,lever_out,lever_out,,,ID:speaker|,1
+1,output_deactivated,0.51,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_stop_round_start,1.06,lever_out,lever_out,,,ID:speaker|,1
+1,lever_extended_food,1.07,lever_out,lever_out,,,ID:food|,1
+1,,3.27,lever_out,lever_out,2.26,,n_presses:1|,1
+1,presses_reached_food,3.27,lever_out,lever_out,2.26,,n_presses:1|,1
+1,lever_press_food,3.28,lever_out,lever_out,,,ID:event_LED|,1
+1,output_activated,3.28,lever_out,lever_out,,,ID:event_LED|,1
+1,tone_start_pellet_tone,3.29,lever_out,lever_out,,,ID:speaker|,1
+1,output_deactivated,3.63,lever_out,lever_out,,,ID:event_LED|,1
+1,lever_retracted_food,3.87,lever_out,lever_out,,,ID:food|,1
+1,tone_stop_pellet_tone,4.29,lever_out,lever_out,,,ID:speaker|,1
+1,pellet_not_retrieved_dispenser,6.29,ITI,ITI,,,ID:dispenser|,1
+1,pellet_skipped_dispenser,6.29,ITI,ITI,,,ID:dispenser|,1
+2,new_round,51.3,lever_out,lever_out,,,ID:round_LED|,2
+2,output_activated,51.31,lever_out,lever_out,,,ID:round_LED|,2
+2,tone_start_round_start,51.35,lever_out,lever_out,,,ID:speaker|,2
+2,output_deactivated,51.81,lever_out,lever_out,,,ID:round_LED|,2
+2,tone_stop_round_start,52.35,lever_out,lever_out,,,ID:speaker|,2
+2,lever_extended_food,52.36,lever_out,lever_out,,,ID:food|,2
+2,lever_retracted_food,111.75,ITI,ITI,,,ID:food|,2

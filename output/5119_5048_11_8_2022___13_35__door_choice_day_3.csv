@@ -1,0 +1,6 @@
+round,event,time,phase initialized,phase submitted,latency,duration,modifiers,round timestamp initialized
+0,trigger,0.0,NoPhase,NoPhase,,,ID:miniscope_trigger|,0
+0,close_start_door_1,0.02,NoPhase,NoPhase,,,ID:door_1|,0
+0,close_finished_door_1,0.05,NoPhase,NoPhase,,,ID:door_1|,0
+0,close_start_door_2,0.07,NoPhase,NoPhase,,,ID:door_2|,0
+0,close_finished_door_2,0.07,NoPhase,NoPhase,,,ID:door_2|,0

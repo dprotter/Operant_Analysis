@@ -1,0 +1,27 @@
+round,event,time,phase initialized,phase submitted,latency,duration,modifiers,round timestamp initialized
+0,trigger,0.0,NoPhase,NoPhase,,,ID:miniscope_trigger|,0
+0,close_start_door_1,0.01,NoPhase,NoPhase,,,ID:door_1|,0
+0,lever_retracted_food,0.49,NoPhase,NoPhase,,,ID:food|,0
+0,lever_retracted_lever_2,0.5,NoPhase,NoPhase,,,ID:lever_2|,0
+0,lever_retracted_lever_1,0.5,NoPhase,NoPhase,,,ID:lever_1|,0
+0,close_finished_door_1,2.78,NoPhase,NoPhase,,,ID:door_1|,0
+0,close_start_door_2,2.79,NoPhase,NoPhase,,,ID:door_2|,0
+0,close_finished_door_2,5.25,NoPhase,NoPhase,,,ID:door_2|,0
+1,new_round,5.76,NoPhase,NoPhase,,,ID:round_LED|,1
+1,output_activated,5.76,levers_out,levers_out,,,ID:round_LED|,1
+1,tone_start_round_start,5.78,levers_out,levers_out,,,ID:speaker|,1
+1,output_deactivated,6.26,levers_out,levers_out,,,ID:round_LED|,1
+1,tone_stop_round_start,6.79,levers_out,levers_out,,,ID:speaker|,1
+1,lever_extended_lever_1,7.56,levers_out,levers_out,,,ID:lever_1|,1
+1,lever_extended_lever_2,7.56,levers_out,levers_out,,,ID:lever_2|,1
+1,,7.57,levers_out,levers_out,0.8,,n_presses:1|,1
+1,presses_reached_lever_1,7.57,levers_out,levers_out,0.8,,n_presses:1|,1
+1,lever_press,7.57,levers_out,levers_out,,,ID:event_LED|,1
+1,output_activated,7.57,levers_out,levers_out,,,ID:event_LED|,1
+1,tone_start_door_2_open,7.62,levers_out,levers_out,,,ID:speaker|,1
+1,output_deactivated,7.92,levers_out,levers_out,,,ID:event_LED|,1
+1,lever_retracted_lever_2,8.01,levers_out,levers_out,,,ID:lever_2|,1
+1,tone_stop_door_2_open,8.62,levers_out,levers_out,,,ID:speaker|,1
+1,lever_retracted_lever_1,8.67,levers_out,levers_out,,,ID:lever_1|,1
+1,open_start_door_2,10.58,reward_phase,reward_phase,,,ID:door_2|,1
+1,open_finished_door_2,12.19,reward_phase,reward_phase,,,ID:door_2|,1

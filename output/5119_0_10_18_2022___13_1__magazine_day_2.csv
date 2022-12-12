@@ -1,0 +1,22 @@
+round,event,time,phase initialized,phase submitted,latency,duration,modifiers,round timestamp initialized
+0,trigger,0.0,NoPhase,NoPhase,,,ID:miniscope_trigger|,0
+1,new_round,0.01,NoPhase,NoPhase,,,ID:round_LED|,1
+1,output_activated,0.01,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_start_round_start,0.06,lever_out,lever_out,,,ID:speaker|,1
+1,lever_extended_food,0.06,lever_out,lever_out,,,ID:food|,1
+1,output_deactivated,0.51,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_stop_round_start,1.06,lever_out,lever_out,,,ID:speaker|,1
+1,tone_start_pellet_tone,2.03,lever_out_pt2,lever_out_pt2,,,ID:speaker|,1
+1,tone_stop_pellet_tone,3.03,lever_out_pt2,lever_out_pt2,,,ID:speaker|,1
+1,lever_retracted_food,4.12,ITI,ITI,,,ID:food|,1
+1,pellet_dispense_failure_dispenser,6.53,ITI,ITI,,,ID:dispenser|,1
+2,new_round,60.14,lever_out,lever_out,,,ID:round_LED|,2
+2,output_activated,60.14,lever_out,lever_out,,,ID:round_LED|,2
+2,tone_start_round_start,60.18,lever_out,lever_out,,,ID:speaker|,2
+2,lever_extended_food,60.19,lever_out,lever_out,,,ID:food|,2
+2,output_deactivated,60.64,lever_out,lever_out,,,ID:round_LED|,2
+2,tone_stop_round_start,61.18,lever_out,lever_out,,,ID:speaker|,2
+2,tone_start_pellet_tone,62.14,lever_out_pt2,lever_out_pt2,,,ID:speaker|,2
+2,tone_stop_pellet_tone,63.15,lever_out_pt2,lever_out_pt2,,,ID:speaker|,2
+2,lever_retracted_food,64.25,ITI,ITI,,,ID:food|,2
+2,pellet_dispense_failure_dispenser,66.67,ITI,ITI,,,ID:dispenser|,2
