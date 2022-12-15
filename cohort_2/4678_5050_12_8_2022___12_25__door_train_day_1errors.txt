@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/box.py", line 302, in monitor_workers
+    worker.result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/components.py", line 234, in retract
+    self.servo.angle = loc
+  File "/usr/local/lib/python3.7/dist-packages/adafruit_motor/servo.py", line 108, in angle
+    raise ValueError("Angle out of range")
+ValueError: Angle out of range
+Traceback (most recent call last):
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/box.py", line 302, in monitor_workers
+    worker.result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/components.py", line 234, in retract
+    self.servo.angle = loc
+  File "/usr/local/lib/python3.7/dist-packages/adafruit_motor/servo.py", line 108, in angle
+    raise ValueError("Angle out of range")
+ValueError: Angle out of range
+Traceback (most recent call last):
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/box.py", line 302, in monitor_workers
+    worker.result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/components.py", line 234, in retract
+    self.servo.angle = loc
+  File "/usr/local/lib/python3.7/dist-packages/adafruit_motor/servo.py", line 108, in angle
+    raise ValueError("Angle out of range")
+ValueError: Angle out of range

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/box.py", line 302, in monitor_workers
+    worker.result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/components.py", line 1185, in speaker_queue_handler
+    self.set_off()
+  File "/home/pi/RPI_Operant2/RPI_Operant/hardware/components.py", line 1241, in set_off
+    self.pi.set_PWM_dutycycle(self.pin, 0)
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1481, in set_PWM_dutycycle
+    self.sl, _PI_CMD_PWM, user_gpio, int(dutycycle)))
+  File "/usr/lib/python3/dist-packages/pigpio.py", line 1025, in _pigpio_command
+    sl.s.send(struct.pack('IIII', cmd, p1, p2, 0))
+AttributeError: 'NoneType' object has no attribute 'send'

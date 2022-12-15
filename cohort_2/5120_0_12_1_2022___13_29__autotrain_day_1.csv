@@ -1,0 +1,9 @@
+FR|1,day|1,experiment|autotrain,output_path|/home/pi/miniscope_operant_dec_2022/output/,title|nan,vole|5120,vole_2|0
+round,event,time,phase initialized,phase submitted,latency,duration,modifiers,round timestamp initialized
+0,trigger,0.004,NoPhase,NoPhase,,,ID:miniscope_trigger|,0
+1,new_round,0.006,NoPhase,NoPhase,,,ID:round_LED|,1
+1,output_activated,0.007,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_start_round_start,0.008,lever_out,lever_out,,,ID:speaker|,1
+1,output_deactivated,0.509,lever_out,lever_out,,,ID:round_LED|,1
+1,tone_stop_round_start,1.012,lever_out,lever_out,,,ID:speaker|,1
+1,lever_extended_food,1.913,lever_out,lever_out,,,ID:food|,1
